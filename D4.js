@@ -53,6 +53,13 @@ console.log("My Data withouth my age is now:", myData)
 /* EXERCISE 5
 Create a second object with name, surname, email address and verify that this object has a different email address than the previous one.
 */
+console.log("\n----------<Exercise 5>----------") 
+let secondObject = {
+    name: "Ifechukwu Beauty",
+    surname: "Azubuike",
+    emailAddress: "ifechukwu.azubuike@gmx.de"
+}
+console.log("My Data with a new email Address is now:", secondObject) 
 
 /* WRITE YOUR CODE HERE */
 
