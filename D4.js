@@ -127,6 +127,10 @@ console.log("Information about the cars are as follows:", car1, ',', car2, ',', 
 /* EXERCISE 9
 Create a new array called carsForRent containing all the cars from the previous exercise.
 */
+console.log("\n----------<Exercise 9>----------") 
+let carsForRent = [car1, car2, car3, car4, car5]
+
+console.log("Here are the available cars for rent:", carsForRent) 
 
 /* WRITE YOUR CODE HERE */
 
