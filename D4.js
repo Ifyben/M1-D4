@@ -11,6 +11,8 @@ You can use the bash terminal, the VSCode terminal or the one embedded in your O
 /* EXERCISE 1
 Create an array containing the first 5 positive numbers.
 */
+let firstFivePositiveNumbers = [0, 1, 2, 3, 4]
+console.log("The first five positive numbers are:", firstFivePositiveNumbers) 
 
 /* WRITE YOUR CODE HERE */
 
