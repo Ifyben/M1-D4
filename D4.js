@@ -11,6 +11,7 @@ You can use the bash terminal, the VSCode terminal or the one embedded in your O
 /* EXERCISE 1
 Create an array containing the first 5 positive numbers.
 */
+console.log("\n---------<Exercise 1>----------") 
 let firstFivePositiveNumbers = [0, 1, 2, 3, 4]
 console.log("The first five positive numbers are:", firstFivePositiveNumbers) 
 
@@ -19,6 +20,7 @@ console.log("The first five positive numbers are:", firstFivePositiveNumbers)
 /* EXERCISE 2
 Create an object containing your name, surname, email address and age.
 */
+
 console.log("\n---------<Exercise 2>--------")
 let myData = {
     name: "Ifechukwu Beauty",
@@ -27,6 +29,7 @@ let myData = {
     age: 24,
 }   
 console.log("My Data are as follows:", myData) 
+
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 3
@@ -35,11 +38,15 @@ Add to the previously created object a boolean value to rappresent wheter you ha
 console.log("\n---------<Exercise 3>--------") 
 myData.hasDrivingLicense = false
 console.log("My updated Data is now:", myData)
+
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 4
 Remove from the previously created object the age property.
 */
+console.log("\n--------<Exercise 4>--------")
+delete myData.age
+console.log("My Data withouth my age is now:", myData) 
 
 /* WRITE YOUR CODE HERE */
 
