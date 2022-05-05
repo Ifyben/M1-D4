@@ -150,7 +150,7 @@ console.log("Remainig cars after the first and the last cars have been rented", 
 Print in the console the TYPES of the car variable, of its licensePlate and of the its brand properties.
 */
 console.log("\n----------<Exercise 11>----------") 
-console.log("Here are the available cars for rent:", carsForRent) 
+console.log("Here are the available cars for rent:", car.model, car.brand, car.licensePlate) 
 
 /* WRITE YOUR CODE HERE */
 
@@ -158,12 +158,28 @@ console.log("Here are the available cars for rent:", carsForRent)
 Create a new array called carsForSale and insert 3 cars in it.
 Store in a variable totalCars the number of cars present in both carsForSale and carsForRent arrays.
 */
+console.log("\n----------<Exercise 12>----------") 
+
+let carsForSale = [car1, car3, car4]
+let totalCars = {
+    carsForSale: carsForSale.length,
+    carsForRent: carsForRent.length
+}
+//console.log("Here are the number of cars present in both cars for sale and cars for rent:", totalCars)
+
+
 
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 13
 Print in the console the data from each car in the carsForSale array.
 */
+console.log("\n----------<Exercise 13>----------") 
+
+console.log(carsForSale[0].licensePlate) 
+console.log(carsForSale[2].licensePlate) 
+console.log(carsForSale[3].licensePlate) 
+
 
 /* WRITE YOUR CODE HERE */
 
