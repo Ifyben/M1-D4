@@ -139,8 +139,8 @@ Remove the first and the last car from the carsForRent array.
 */
 console.log("\n----------<Exercise 10>----------") 
 
-carsForRent.pop()
 carsForRent.shift()
+carsForRent.pop()
 
 console.log("Remainig cars after the first and the last cars have been rented", carsForRent)
 
@@ -149,6 +149,8 @@ console.log("Remainig cars after the first and the last cars have been rented", 
 /* EXERCISE 11
 Print in the console the TYPES of the car variable, of its licensePlate and of the its brand properties.
 */
+console.log("\n----------<Exercise 11>----------") 
+console.log("Here are the available cars for rent:", carsForRent) 
 
 /* WRITE YOUR CODE HERE */
 
