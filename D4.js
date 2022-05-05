@@ -69,20 +69,24 @@ Currently you have a promotion: if the customer's shopping cart total is more th
 Write an algorithm that calculates the total cost to charge the user with.
 */
 /*console.log("\n----------<Exercise 6>----------")
-let price = shoppingCart
-if(shoppingCart>50) {
-    price= "Customer gets free shipping"
-} else {
-    price= "Customer pays a shipping fee of 10"
-} 
-console.log("Here are the details about shipping for customers", price) */
 
+let totalShoppingCart = 100
+if(totalShoppingCart >= 50){ 
+    totalShoppingCart += 0
+} else {
+        totalShoppingCart += 10 
+}
+console.log(totalShoppingCart !== 60) */
+   
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 7
 You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
 Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
 */
+//console.log("\n----------<Exercise 7>----------") 
+
+
 
 /* WRITE YOUR CODE HERE */
 
@@ -90,7 +94,34 @@ Modify the previous answer inserting this information and, applying the same rul
 Create an object representing a car with properties like brand, model, licensePlate.
 After you create the first car, clone it 5 times and change the licensePlate for each cloned car without affecting the original one.
 */
+console.log("\n----------<Exercise 8>----------") 
+let car1 = {
+    brand :"Jeep",
+    model: 2020,
+    licensePlate: "KSC124"
+}
 
+let car2 = {
+    ...car1,
+    licensePlate: "KL35J4199" 
+}
+
+let car3 = {
+    ...car1,
+    licensePlate: "SA335CO"
+}
+
+let car4 = {
+    ...car1,
+    licensePlate: "P688CC"
+}
+
+let car5 = {
+    ...car1,
+    licensePlate: "WOBZK295"
+}
+
+console.log("Information about the cars are as follows:", car1, ',', car2, ',', car3, ',', car4, ',', car5)
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 9
