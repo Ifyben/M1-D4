@@ -137,6 +137,12 @@ console.log("Here are the available cars for rent:", carsForRent)
 /* EXERCISE 10
 Remove the first and the last car from the carsForRent array.
 */
+console.log("\n----------<Exercise 10>----------") 
+
+carsForRent.pop()
+carsForRent.shift()
+
+console.log("Remainig cars after the first and the last cars have been rented", carsForRent)
 
 /* WRITE YOUR CODE HERE */
 
