@@ -32,7 +32,9 @@ console.log("My Data are as follows:", myData)
 /* EXERCISE 3
 Add to the previously created object a boolean value to rappresent wheter you have or not a driving license.
 */
-
+console.log("\n---------<Exercise 3>--------") 
+myData.hasDrivingLicense = false
+console.log("My updated Data is now:", myData)
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 4
