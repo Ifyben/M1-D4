@@ -19,7 +19,14 @@ console.log("The first five positive numbers are:", firstFivePositiveNumbers)
 /* EXERCISE 2
 Create an object containing your name, surname, email address and age.
 */
-
+console.log("\n---------<Exercise 2>--------")
+let myData = {
+    name: "Ifechukwu Beauty",
+    surname: "Azubuike",
+    emailAddress: "ifechukwu.azubuike@gmail.com",
+    age: 24,
+}   
+console.log("My Data are as follows:", myData) 
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 3
