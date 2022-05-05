@@ -54,12 +54,12 @@ console.log("My Data withouth my age is now:", myData)
 Create a second object with name, surname, email address and verify that this object has a different email address than the previous one.
 */
 console.log("\n----------<Exercise 5>----------") 
-let secondObject = {
-    name: "Ifechukwu Beauty",
+let secondData = {
+    name: "Favour",
     surname: "Azubuike",
-    emailAddress: "ifechukwu.azubuike@gmx.de"
+    emailAddress: "favour.azubuike@gmail.com"
 }
-console.log("My Data with a new email Address is now:", secondObject) 
+console.log("The second email is not equal to the first email:", myData !== secondData) 
 
 /* WRITE YOUR CODE HERE */
 
@@ -68,6 +68,14 @@ You are working on an e-commerce website. In the variable totalShoppingCart you 
 Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
 Write an algorithm that calculates the total cost to charge the user with.
 */
+/*console.log("\n----------<Exercise 6>----------")
+let price = shoppingCart
+if(shoppingCart>50) {
+    price= "Customer gets free shipping"
+} else {
+    price= "Customer pays a shipping fee of 10"
+} 
+console.log("Here are the details about shipping for customers", price) */
 
 /* WRITE YOUR CODE HERE */
 
