@@ -68,15 +68,12 @@ You are working on an e-commerce website. In the variable totalShoppingCart you 
 Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
 Write an algorithm that calculates the total cost to charge the user with.
 */
-/*console.log("\n----------<Exercise 6>----------")
+/*console.log("\n----------<Exercise 6>----------")*/
 
-let totalShoppingCart = 100
-if(totalShoppingCart >= 50){ 
-    totalShoppingCart += 0
-} else {
-        totalShoppingCart += 10 
-}
-console.log(totalShoppingCart !== 60) */
+let totalShoppingCart = 50
+if(totalShoppingCart <= 50){ 
+    totalShoppingCart += 10  //totalShoppingCart = totalShoppingCart + 10
+} 
    
 /* WRITE YOUR CODE HERE */
 
